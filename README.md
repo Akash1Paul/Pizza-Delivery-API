@@ -32,4 +32,4 @@ engine=create_engine('mysql+pymysql://<username>:<password>@localhost/<db_name>'
 
 - Create your database by running ``` python init_db.py ```
 - Finally run the API
-``` uvicorn main:app ``
+``` uvicorn main:app --reload ``
