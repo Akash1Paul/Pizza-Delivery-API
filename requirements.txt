@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic-settings==1.10.2
+passlib[bcrypt]==1.7.4
+python--jose[cryptography]
+sqlalchemy-utils
+werkzeug
+fastapi_jwt_auth
+fastapi-jwt-auth
+starlette==0.14.2
+pydantic==1.8.2
+typing-extensions==3.10.0.2
+asgiref==3.4.1
+click==8.0.1
